@@ -81,3 +81,12 @@ var school = {
  console.log(car.getKilometers);
  car.setKilometers =100;
  console.log(car.getKilometers);
+
+ function computer(name, CPU, RAM, GPU){
+    this.name = name;
+    this.CPU = CPU;
+    this.RAM = RAM;
+    this.GPU = GPU
+ }
+ var computer1 = new computer ("MacBook", "M1 8-core", "8GB")
+ 
