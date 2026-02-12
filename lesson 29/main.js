@@ -1,4 +1,4 @@
-var programingLanguages = {"Javascript" , "PHP" , "Python"}
+var programingLanguages = {"Javascript" , "PHP","Python"}
 
 console.log (programingLanguages);
 
@@ -42,3 +42,25 @@ console.log(first)
 console.log(second)
 
 console.log(otherNumbers.toString());
+
+
+var films = [Whitechiks,snowwhite,housemaid,us]
+
+var [firstfilm, secondfilm] = films
+
+console.log (secondfilm);
+
+var numbers = [1,2,3,4,5] 
+
+numbers.push(1);
+
+numbers.pop(5);
+
+numbers.unshift(c#);
+
+numbers.shift(2);
+
+numbers.splice(0,2);
+
+
+
